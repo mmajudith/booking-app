@@ -1,11 +1,18 @@
+import { useDispatch } from 'react-redux';
+import { logOut } from '../../reduxtoolkit/actionsCreator/loginAndLogoutActions';
 import HeaderNavList from '../../shared-components/headerNavList/HeaderNavList';
-import HeaderMenu from './headerMenu/HeaderMenu';
+import Logo from '../../assets/tidycal-logo.png';
+import './header.css';
 
 const Header = () => {
+	const dispatch = useDispatch();
 	return (
 		<header>
+			<div className="logo">
+				<img src={Logo} alt="logo" />
+			</div>
 			<HeaderNavList />
-			<HeaderMenu />
+			<p onClick={() => dispatch(logOut())}>LogOut</p>
 		</header>
 	);
 };

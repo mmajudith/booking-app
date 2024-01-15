@@ -1,21 +1,27 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const HeaderNav = () => {
+	const activeClassName = 'nav-link-active';
 	return (
-		<nav>
-			<ul>
-				{[
-					['Booking Types', '/'],
-					['Date Polls', '/date-polls'],
-					['My Bookings', '/my-Bookings'],
-					['My Contacts', '/my-contacts'],
-				].map(([list, url], index) => (
-					<li key={index}>
-						<Link to={url}>{list}</Link>
-					</li>
-				))}
-			</ul>
-		</nav>
+		<ul className="flex-row between">
+			{[
+				['Booking Types', '/'],
+				['Date Polls', '/date-polls'],
+				['My Bookings', '/my-Bookings'],
+				['My Contacts', '/my-contacts'],
+			].map(([list, url], index) => (
+				<li key={index}>
+					<NavLink
+						to={url}
+						className={({ isActive }) =>
+							isActive ? activeClassName : undefined
+						}
+					>
+						{list}
+					</NavLink>
+				</li>
+			))}
+		</ul>
 	);
 };
 
