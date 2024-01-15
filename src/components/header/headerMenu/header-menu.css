@@ -1,0 +1,30 @@
+.nav-menu-lists{
+    width: 170px;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    background-color: #FFF;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+}
+
+.nav-menu-lists .b-bottom{
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-menu-lists ul{
+    width: 100%;
+    font-size: 16px;
+}
+
+.nav-menu-lists ul li{
+    width: 100%;
+    padding: 10px;
+    color: #212529
+}
+
+.nav-menu-lists ul li:hover{
+    cursor: pointer;
+    background-color: hsl(223, 19%, 93%);
+}

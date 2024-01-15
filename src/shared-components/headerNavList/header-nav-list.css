@@ -1,0 +1,12 @@
+.nav-list{
+    gap: 15px
+}
+
+.nav-list li a{
+    color: #777777;
+    font-size: 16px;
+}
+
+.nav-list li .nav-link-active{
+    color: #000;
+}

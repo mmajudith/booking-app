@@ -6,6 +6,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    color: #777777;
 }
 
 header .logo img{
@@ -13,22 +14,42 @@ header .logo img{
     height: 30px;
 }
 
-header ul{
-    gap: 15px
+header .user-profile-status{
+    gap: 10px;
 }
 
-header ul li a{
-    color: #777777;
-    font-size: 16px;
+header .user-profile-status .upgrade{
+    font-weight: 700;
+    color: #1569ef;
 }
 
-header ul li .nav-link-active{
-    color: #000;
+header .user-profile-status .profile-wrapper{
+    gap: 5px
 }
 
-header p{
-    color: #777777;
-    font-size: 16px;
+header .user-profile-status .profile-wrapper svg{
+    width: 30px;
+    height: 30px;
+    border-radius: 9999px;
+}
+
+header .user-profile-status .earning{
+    font-size: 10px;
+}
+
+header .user-profile-status .earning span{
+    font-size: 16px !important;
+}
+
+header .menu-wrapper{
+    position: relative;
+}
+
+header .menu-wrapper img{
+    width: 30px;
+    height: 30px;
     cursor: pointer;
 }
+
+
 
