@@ -75,7 +75,7 @@
 @media screen and (max-width: 540px) {
     .chat-wrapper{
         width: 100vw;
-        height: 100vh;
+        height: 100dvh;
         margin: auto;
         top: 0px;
         right: 0px;
