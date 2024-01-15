@@ -13,10 +13,8 @@ const Chat = ({ chatBotHandler }) => {
 					<CloseIcon onClick={chatBotHandler} />
 				</div>
 			</div>
-			<div className="text-wrapper w">
+			<div className="text-wrapper w flex-col">
 				<p className="chat-text">Hi there. 👋 Do you need any help?</p>
-
-				<div className="chat-area w"></div>
 
 				<div className="w flex-row flex-start">
 					<p className="question m-right">What is TidyCal?</p>

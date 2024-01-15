@@ -1,6 +1,6 @@
 .chat-wrapper{
     width: 460px;
-    height: auto;
+    height: 83vh;
     border-radius: 6px;
     border: 1px solid #dee2e6;
     background-color: #FFF;
@@ -28,17 +28,19 @@
   cursor: pointer;
 }
 
+.chat-wrapper .text-wrapper{
+    height: 80%;
+    justify-content: space-between;
+}
+
 .chat-wrapper .text-wrapper .chat-text{
     width: fit-content;
     height: fit-content;
+    display: block;
     margin-top: 10px;
     border-radius: 6px;
     padding: 15px;
     background-color: hsl(223, 19%, 93%);
-}
-
-.chat-wrapper .text-wrapper .chat-area{
-   height: 50vh;
 }
 
 .chat-wrapper .text-wrapper div .question{
@@ -68,4 +70,26 @@
     width: 28px;
     height: 28px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+    .chat-wrapper{
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        z-index: 3;
+        border-radius: 0px;
+        border: 0px
+    }
+    .chat-wrapper .text-wrapper{
+        height: 85%;
+    }
+
+    .chat-wrapper .send-message-wrapper{
+       height: 10%;
+    }
 }
