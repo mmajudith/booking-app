@@ -1,0 +1,88 @@
+.login-container{
+    width: 450px;
+    height: auto;
+    margin: auto;
+    padding: 40px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    height: 60;
+}
+
+.login-form-container{
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+}
+
+.login-form-container .login-name{
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.login-form-container .login-btn-wrapper{
+    padding: 10px 24px 20px 24px;
+}
+
+.login-form-container .login-btn{
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: #FFF;
+    background-color: #1569ef;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.login-form-container .login-btn:hover{
+    background-color: #093a8af6;
+    cursor: pointer;
+}
+
+.login-form-container .login-option-line{
+    padding: 20px 24px;
+}
+
+.login-form-container .login-option-line .right-line, .left-line{
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background-color: #dee2e6;
+
+}
+
+.login-form-container .login-google-btn{
+    position: relative;
+    height: 40px;
+    border: 1px solid #1569ef;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.login-form-container .login-google-btn img{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+
+.login-form-container .register-wrapper{
+    padding: 10px 24px 30px 24px;
+    color: #1569ef;
+}
+
+@media screen and (max-width: 540px) {
+    .login-container{
+        width: 95%;
+    }
+}

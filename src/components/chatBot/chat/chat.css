@@ -1,0 +1,71 @@
+.chat-wrapper{
+    width: 460px;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    background-color: #FFF;
+    padding: 10px;
+    position: fixed;
+    top: 20px;
+    z-index: 2;
+}
+
+.chat-wrapper .chat-title-wrapper{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.chat-wrapper .chat-title-wrapper .bot-name{
+    font-size: 18px;
+    color: #212529;
+    font-weight: 600;
+}
+
+.chat-wrapper .chat-title-wrapper .reset-close-icon-wrapper svg{
+  width: 28px;
+  height: 28px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.chat-wrapper .text-wrapper .chat-text{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: hsl(223, 19%, 93%);
+}
+
+.chat-wrapper .text-wrapper .chat-area{
+   height: 50vh;
+}
+
+.chat-wrapper .text-wrapper div .question{
+    border-radius: 6px;
+    background-color: hsl(223, 19%, 93%);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.chat-wrapper .text-wrapper div .m-right{
+    margin-right: 10px;
+}
+
+.chat-wrapper .send-message-wrapper{
+    padding-top: 10px;
+    border-top: 1px solid #dee2e6;
+}
+
+.chat-wrapper .send-message-wrapper input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.chat-wrapper .send-message-wrapper svg{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}

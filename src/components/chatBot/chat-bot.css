@@ -1,0 +1,14 @@
+.chat-icons-wrapper{
+    width: 55px;
+    height: 55px;
+    border-radius: 9999px;
+    background-color: #1569ef;
+    position: fixed;
+    bottom: 20px;
+    z-index: 2;
+    cursor: pointer
+}
+
+.chat-icons-wrapper:hover{
+   transform: scale(1.1);
+}

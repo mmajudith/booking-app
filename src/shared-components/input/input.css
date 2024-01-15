@@ -1,0 +1,41 @@
+.input-container{
+    padding: 10px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.check-container{
+    padding: 10px 24px 0px 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.check-container label{
+    font-size: 18px;
+    padding-left: 5px;
+    color: #212529;
+}
+
+.input-container label{
+    font-weight: 700;
+    font-size: 18px;
+    color: #212529;
+    padding-bottom: 5px;
+}
+
+.input-container input{
+    height: 40px;
+    border: 1px solid #dee2e6;
+    font-size: 18px;
+    border-radius: 6px;
+    padding-left: 20px;
+}
+
+.input-container input:focus{
+  border-color: rgba(23, 78, 229, 0.8);
+  box-shadow: 0 2px 2px rgba(23, 119, 229, 0.075) inset, 0 0 8px rgba(23, 78, 229, 0.6);
+  outline: 0 none;
+}

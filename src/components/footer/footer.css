@@ -1,0 +1,28 @@
+footer{
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+footer div .font{
+    font-size: 8px;
+}
+
+footer div .appsumo{
+    font-weight: 800;
+}
+
+footer div .origin{
+    font-weight: 300;
+    color: #1569ef;
+}
+
+footer small{
+    margin-top: 30px;
+    color: #6c757d;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+footer small span{
+    font-weight: 800;
+}

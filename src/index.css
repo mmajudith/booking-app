@@ -1,13 +1,77 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+	list-style-type: none;
 }
+
+body{ 
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+	width: 100%;
+    max-width: 1440px;
+	height: 100%;
+    margin: auto;
+    transition: all 0.25s cubic-bezier(0.075, 0.1, 0.165, 1);
+    background-color: #FFF;
+    color: #3c393a;
+}
+
+.App {
+	width: 100%;
+    max-width: 1440px;
+	height: 100%;
+    margin: auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    position: relative;
+}
+
+/* Reuseable classes */
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-start{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.between{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w{
+    width: 100%;
+}
+
+.b-s{
+    box-shadow:  0px 0px 30px -12px rgb(0 0 0 / 0.25);
+}
+
+.b-r{
+    border-radius: 8px;
+}
+
