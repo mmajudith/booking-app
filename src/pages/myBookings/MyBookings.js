@@ -1,8 +1,10 @@
+import { useDocumentTitle } from '../../hook/useDocumentTitle';
 import Button from '../../shared-components/button/Button';
 import { ReactComponent as CalenderIcon } from '../../assets/calender-icon.svg';
 import './my-bookings.css';
 
 const MyBooking = () => {
+	useDocumentTitle('Bookings');
 	return (
 		<div className="my-booking-container w flex-col center">
 			<div className="w flex-row between">

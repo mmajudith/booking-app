@@ -1,7 +1,9 @@
+import { useDocumentTitle } from '../../hook/useDocumentTitle';
 import Button from '../../shared-components/button/Button';
 import './my-contacts.css';
 
 const MyContacts = () => {
+	useDocumentTitle('Contacts');
 	return (
 		<div className="my-contact-container w flex-col center">
 			<div className="w flex-row between">

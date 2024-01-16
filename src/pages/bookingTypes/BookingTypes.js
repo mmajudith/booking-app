@@ -1,9 +1,11 @@
 import { useSelector } from 'react-redux';
+import { useDocumentTitle } from '../../hook/useDocumentTitle';
 import Button from '../../shared-components/button/Button';
 import BookingTimeCard from '../../shared-components/bookingTimeCard/BookingTimeCard';
 import './booking-types.css';
 
 const BookingTypes = () => {
+	useDocumentTitle('Booking Types');
 	const { bookingsTimeMethod } = useSelector(
 		(state) => state.bookingsTypeSlice
 	);
