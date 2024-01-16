@@ -49,6 +49,10 @@ h2{
     color: #212529;
 }
 
+h2 span{
+    color: #777777;
+}
+
 /* Reuseable classes */
 .flex-row {
     display: flex;
@@ -93,3 +97,6 @@ h2{
     border-radius: 8px;
 }
 
+.flex-gap-15{
+    gap: 15px;
+   }

@@ -10,7 +10,7 @@ const MyBooking = () => {
 					Bookings <span>0</span>
 				</h2>
 
-				<div className="flex-row between flex-gap">
+				<div className="flex-row between flex-gap-15">
 					<div className="flex-row between f-wrapper">
 						<p>Filter:</p>
 						<p className="filter flex-col flex-s-s">Upcoming bookings</p>

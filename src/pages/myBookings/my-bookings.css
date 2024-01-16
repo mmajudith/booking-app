@@ -4,14 +4,6 @@
     margin: 40px auto;
 }
 
-.my-booking-container div h2 span{
-    color: #777777;
-}
-
-.my-booking-container .flex-gap{
- gap: 15px;
-}
-
 .f-wrapper{
     gap: 5px;
 }
@@ -29,7 +21,7 @@
     border-radius: 8px;
 }
 
-.my-booking-container .flex-gap .cal-icon-wrapper{
+.my-booking-container .flex-gap-15 .cal-icon-wrapper{
     height: 40px;
     border: 1px solid #777777;
     color: #777777;
@@ -38,11 +30,11 @@
     cursor: pointer;
 }
 
-.my-booking-container .flex-gap .cal-icon-wrapper:hover{
+.my-booking-container .flex-gap-15 .cal-icon-wrapper:hover{
     background-color: #777777;
 }
 
-.my-booking-container .flex-gap .cal-icon-wrapper:hover > svg .calendarIcon{
+.my-booking-container .flex-gap-15 .cal-icon-wrapper:hover > svg .calendarIcon{
     stroke: #FFF;
 }
 
