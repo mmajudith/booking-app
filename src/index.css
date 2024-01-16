@@ -66,6 +66,11 @@ h2{
     align-items: center;
 }
 
+.flex-s-s{
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .center{
     justify-content: center;
     align-items: center;

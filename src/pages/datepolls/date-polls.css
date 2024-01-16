@@ -1,6 +1,22 @@
 .date-polls-container{
-    width: 80%;
-    margin: auto auto;
-    /* height: 100%; */
-  
+    width: 65%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.polls-title-wrapper, .v-wrapper{
+    gap: 15px;
+}
+
+.v-wrapper p{
+    font-size: 16px;
+    color: #212529;
+}
+
+.v-wrapper .polls{
+    width: 180px;
+    height: 40px;
+    padding-left: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
 }
