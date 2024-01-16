@@ -1,0 +1,32 @@
+.btn-create{
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 0px 20px;
+    border-radius: 8px;
+    background-color: #FFF;
+    font-size: 16px;
+}
+
+.btn-create:hover{
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn-blue{
+    border: 1px solid #1569ef;
+    color: #1569ef;
+}
+
+.btn-blue:hover{
+    background-color: #1569ef;
+}
+
+.btn-grey{
+    border: 1px solid #777777;
+    color: #777777;
+}
+
+.btn-grey:hover{
+    background-color: #777777;
+}

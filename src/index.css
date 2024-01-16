@@ -43,6 +43,12 @@ body{
     position: relative;
 }
 
+h2{
+    font-weight: 700;
+    font-size: 28px;
+    color: #212529;
+}
+
 /* Reuseable classes */
 .flex-row {
     display: flex;

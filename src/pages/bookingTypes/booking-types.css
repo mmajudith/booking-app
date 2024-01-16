@@ -1,0 +1,10 @@
+.booking-type-container{
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.booking-type-title, .btn-page-wrapper, .booking-gap{
+   gap: 10px
+}

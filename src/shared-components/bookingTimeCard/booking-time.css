@@ -1,0 +1,53 @@
+.booking-time-container{
+    width: 320px;
+    background-color: #FFF;
+    margin-top: 70px;
+}
+
+.book-min-wrapper{
+    font-size: 16px;
+    padding: 20px 24px;
+    color: #1569ef;
+}
+
+.book-min-wrapper .mins{
+    font-weight: 700;
+    font-size: 18px;
+    color: #212529;
+}
+
+.book-min-wrapper .links-wrapper .link{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.book-min-wrapper, .active-wrapper{
+    gap: 20px;
+}
+
+.active-wrapper .clock-wrapper{
+    gap: 10px;
+}
+
+.del-clone-edit, .booking-embed, .share-wrapper, .booking-des, .active-wrapper{
+    border-top: 1px solid #dee2e6;
+    font-size: 16px;
+    padding: 20px 24px;
+}
+
+.booking-des,.active-wrapper{
+    color: #212529;
+}
+
+.booking-embed, .share-wrapper{
+    color: #777777;
+}
+
+.del-clone-edit{
+    padding: 24px;
+    color: #1569ef;
+}
+
+.del-clone-edit .del{
+    color: crimson
+}
