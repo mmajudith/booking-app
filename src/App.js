@@ -1,6 +1,9 @@
+import { useEffect } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+import { bookingsTimeMethod } from './bookingsTimeMethodData';
+import { fetchData } from './reduxtoolkit/features/bookingsTypesReducer';
 import ChatBot from './components/chatBot/ChatBot';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
@@ -12,6 +15,7 @@ import MyContacts from './pages/myContacts/MyContacts';
 
 const App = () => {
 	const { currentUser } = useSelector((state) => state.authSlice);
+	const dispatch = useDispatch();
 
 	const RequireAuth = ({ children }) => {
 		return currentUser ? (
@@ -23,6 +27,10 @@ const App = () => {
 			<Navigate to="/login" />
 		);
 	};
+
+	useEffect(() => {
+		dispatch(fetchData(bookingsTimeMethod));
+	}, []);
 
 	return (
 		<div className="App">

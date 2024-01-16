@@ -1,0 +1,52 @@
+.my-booking-container{
+    width: 75%;
+    margin: auto;
+    margin: 40px auto;
+}
+
+.my-booking-container div h2 span{
+    color: #777777;
+}
+
+.my-booking-container .flex-gap{
+ gap: 15px;
+}
+
+.f-wrapper{
+    gap: 5px;
+}
+
+.f-wrapper p{
+    font-size: 16px;
+    color: #212529;
+}
+
+.f-wrapper .filter{
+    width: fit-content;
+    height: 40px;
+    padding: 0px 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+}
+
+.my-booking-container .flex-gap .cal-icon-wrapper{
+    height: 40px;
+    border: 1px solid #777777;
+    color: #777777;
+    padding: 0px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.my-booking-container .flex-gap .cal-icon-wrapper:hover{
+    background-color: #777777;
+}
+
+.my-booking-container .flex-gap .cal-icon-wrapper:hover > svg .calendarIcon{
+    stroke: #FFF;
+}
+
+.my-booking-container .upcoming{
+   margin-top: 50px;
+   font-size: 16px;
+}

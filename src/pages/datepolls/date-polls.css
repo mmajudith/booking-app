@@ -4,8 +4,12 @@
     margin-top: 40px;
 }
 
-.polls-title-wrapper, .v-wrapper{
+.polls-title-wrapper{
     gap: 15px;
+}
+
+.v-wrapper{
+    gap: 5px;
 }
 
 .v-wrapper p{

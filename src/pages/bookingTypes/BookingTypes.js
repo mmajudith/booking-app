@@ -1,9 +1,13 @@
+import { useSelector } from 'react-redux';
 import Button from '../../shared-components/button/Button';
 import BookingTimeCard from '../../shared-components/bookingTimeCard/BookingTimeCard';
-import { bookingsTimeMethod } from '../../bookingsTimeMethodData';
 import './booking-types.css';
 
 const BookingTypes = () => {
+	const { bookingsTimeMethod } = useSelector(
+		(state) => state.bookingsTypeSlice
+	);
+
 	return (
 		<div className="booking-type-container">
 			<div className="booking-method-wrapper w flex-row between">
@@ -19,9 +23,10 @@ const BookingTypes = () => {
 			</div>
 
 			<div className="w flex-row between booking-gap">
-				{bookingsTimeMethod.map((bookingTime, index) => (
-					<BookingTimeCard key={index} bookingTime={bookingTime} />
-				))}
+				{bookingsTimeMethod &&
+					bookingsTimeMethod.map((bookingTime, index) => (
+						<BookingTimeCard key={index} bookingTime={bookingTime} />
+					))}
 			</div>
 		</div>
 	);
