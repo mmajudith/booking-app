@@ -10,3 +10,14 @@
 .nav-list li .nav-link-active{
     color: #000;
 }
+
+@media screen and (max-width: 1024px) {
+    .nav-list{
+        border-bottom: 1px solid #dee2e6;
+        padding: 10px;
+    }
+
+    .nav-list li a:hover{
+        color: #000;
+    }
+}

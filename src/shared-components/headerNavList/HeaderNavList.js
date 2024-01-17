@@ -1,10 +1,14 @@
 import { NavLink } from 'react-router-dom';
 import './header-nav-list.css';
 
-const HeaderNav = () => {
+const HeaderNavList = ({ screenWidth }) => {
 	const activeClassName = 'nav-link-active';
 	return (
-		<ul className="flex-row between nav-list">
+		<ul
+			className={`${
+				screenWidth > 1024 ? `flex-row between` : `flex-col center`
+			} nav-list`}
+		>
 			{[
 				['Booking Types', '/'],
 				['Date Polls', '/date-polls'],
@@ -26,4 +30,4 @@ const HeaderNav = () => {
 	);
 };
 
-export default HeaderNav;
+export default HeaderNavList;

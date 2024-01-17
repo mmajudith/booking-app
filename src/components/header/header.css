@@ -7,6 +7,7 @@ header{
     justify-content: space-between;
     align-items: center;
     color: #777777;
+    position: relative;
 }
 
 header .logo img{
@@ -41,15 +42,10 @@ header .user-profile-status .earning span{
     font-size: 16px !important;
 }
 
-header .menu-wrapper{
-    position: relative;
-}
-
-header .menu-wrapper img{
+header .menu-icon{
     width: 30px;
     height: 30px;
     cursor: pointer;
 }
-
 
 

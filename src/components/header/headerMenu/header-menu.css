@@ -5,8 +5,9 @@
     border: 1px solid #dee2e6;
     background-color: #FFF;
     position: absolute;
-    top: 40px;
-    right: 0px;
+    top: 60px;
+    right: 20px;
+    z-index: 1;
 }
 
 .nav-menu-lists .b-bottom{
@@ -27,4 +28,43 @@
 .nav-menu-lists ul li:hover{
     cursor: pointer;
     background-color: hsl(223, 19%, 93%);
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-menu-lists{
+        width: 100dvw;
+        margin: auto auto;
+        border-radius: 0px;
+        border: none;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .nav-menu-lists ul{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .nav-menu-lists ul li{
+        width: fit-content;
+        color: #777777;
+    }
+
+    .nav-menu-lists ul li:hover{
+        background-color: inherit;
+        color: #000;
+    }
+
+    .nav-menu-lists .b-bottom{
+        border-bottom: none;
+        padding-top: 10px;
+    }
 }
