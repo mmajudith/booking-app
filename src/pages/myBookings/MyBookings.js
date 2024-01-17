@@ -7,7 +7,7 @@ const MyBooking = () => {
 	useDocumentTitle('Bookings');
 	return (
 		<div className="my-booking-container w flex-col center">
-			<div className="w flex-row between">
+			<div className="w flex-row between my-gap">
 				<h2>
 					Bookings <span>0</span>
 				</h2>
@@ -17,9 +17,11 @@ const MyBooking = () => {
 						<p>Filter:</p>
 						<p className="filter flex-col flex-s-s">Upcoming bookings</p>
 					</div>
-					<Button text={'Export bookings ?'} color={'grey'} />
-					<div className="cal-icon-wrapper flex-col center">
-						<CalenderIcon />
+					<div className="flex-row flex-gap-10">
+						<Button text={'Export bookings ?'} color={'grey'} />
+						<div className="cal-icon-wrapper flex-col center">
+							<CalenderIcon />
+						</div>
 					</div>
 				</div>
 			</div>

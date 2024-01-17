@@ -6,7 +6,7 @@ const DatePolls = () => {
 	useDocumentTitle('Date Polls');
 	return (
 		<div className="date-polls-container w flex-col center">
-			<div className="w flex-row between">
+			<div className="w flex-row between polls-gap">
 				<div className="flex-row between polls-title-wrapper">
 					<h2>Date Polls</h2>
 					<Button text={'+ Create new date poll'} color={'blue'} />

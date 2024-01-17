@@ -30,3 +30,16 @@
         width: 85%;
     }
 }
+
+@media screen and (max-width: 780px) {
+    .date-polls-container{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .polls-gap,.polls-title-wrapper{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+    }
+}

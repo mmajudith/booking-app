@@ -6,7 +6,7 @@ const MyContacts = () => {
 	useDocumentTitle('Contacts');
 	return (
 		<div className="my-contact-container w flex-col center">
-			<div className="w flex-row between">
+			<div className="w flex-row between contact-gap">
 				<h2>
 					Contacts <span>0</span>
 				</h2>

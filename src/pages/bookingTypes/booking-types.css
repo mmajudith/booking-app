@@ -27,7 +27,11 @@
     }
 }
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 1024px) {
+    .booking-type-container{
+        width: 100%;
+        padding: 0px 20px;
+    }
     .booking-method-wrapper{
         flex-direction: column;
         justify-content: flex-start;
