@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './header-nav-list.css';
 
-const HeaderNavList = ({ screenWidth }) => {
+const HeaderNavList = ({ screenWidth, menuListHandler }) => {
 	const activeClassName = 'nav-link-active';
 	return (
 		<ul
@@ -21,6 +21,7 @@ const HeaderNavList = ({ screenWidth }) => {
 						className={({ isActive }) =>
 							isActive ? activeClassName : undefined
 						}
+						onClick={screenWidth < 1024 ? menuListHandler : undefined}
 					>
 						{list}
 					</NavLink>

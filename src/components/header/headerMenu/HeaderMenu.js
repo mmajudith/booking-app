@@ -4,12 +4,17 @@ import HeaderNavList from '../../../shared-components/headerNavList/HeaderNavLis
 import HeaderProfile from '../../../shared-components/headerProfile/HeaderProfile';
 import './header-menu.css';
 
-const HeaderMenu = ({ screenWidth }) => {
+const HeaderMenu = ({ screenWidth, menuListHandler }) => {
 	const dispatch = useDispatch();
 
 	return (
 		<nav className="nav-menu-lists">
-			{screenWidth < 1024 && <HeaderNavList />}
+			{screenWidth < 1024 && (
+				<HeaderNavList
+					screenWidth={screenWidth}
+					menuListHandler={menuListHandler}
+				/>
+			)}
 			<ul className="b-bottom">
 				{[['Settings'], ['Integrations']].map(([list], index) => (
 					<li key={index}>{list}</li>

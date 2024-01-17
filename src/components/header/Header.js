@@ -40,7 +40,12 @@ const Header = () => {
 				alt="header menu icon"
 				onClick={menuListHandler}
 			/>
-			{isMenuList && <HeaderMenu screenWidth={screenWidth} />}
+			{isMenuList && (
+				<HeaderMenu
+					screenWidth={screenWidth}
+					menuListHandler={menuListHandler}
+				/>
+			)}
 		</header>
 	);
 };

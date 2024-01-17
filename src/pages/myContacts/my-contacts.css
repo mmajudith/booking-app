@@ -59,4 +59,8 @@
         align-items: flex-start;
         gap: 15px;
     }
+
+    .my-contact-container table thead tr :last-child{
+        width: 25%;
+    }
 }
