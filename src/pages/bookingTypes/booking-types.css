@@ -5,6 +5,45 @@
     margin-bottom: 100px;
 }
 
-.booking-type-title, .btn-page-wrapper, .booking-gap{
-   gap: 10px
+.booking-type-title, .btn-page-wrapper{
+    gap: 10px
+}
+
+.booking-gap{
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+@media screen and (max-width: 1280px) {
+    .booking-type-container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .booking-method-wrapper{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .booking-type-title,.btn-page-wrapper{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .booking-gap{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
 }

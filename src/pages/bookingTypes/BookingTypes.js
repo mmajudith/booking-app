@@ -24,7 +24,7 @@ const BookingTypes = () => {
 				</div>
 			</div>
 
-			<div className="w flex-row between booking-gap">
+			<div className="w booking-gap">
 				{bookingsTimeMethod &&
 					bookingsTimeMethod.map((bookingTime, index) => (
 						<BookingTimeCard key={index} bookingTime={bookingTime} />

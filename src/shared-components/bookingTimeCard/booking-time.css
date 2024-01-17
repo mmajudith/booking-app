@@ -1,7 +1,6 @@
 .booking-time-container{
     width: 320px;
     background-color: #FFF;
-    margin-top: 70px;
 }
 
 .book-min-wrapper{
@@ -50,4 +49,11 @@
 
 .del-clone-edit .del{
     color: crimson
+}
+
+@media screen and (max-width: 540px) {
+    .booking-time-container{
+        width: 100%;
+        background-color: #FFF;
+    }
 }

@@ -24,3 +24,9 @@
     border: 1px solid #dee2e6;
     border-radius: 8px;
 }
+
+@media screen and (max-width: 1280px) {
+    .date-polls-container{
+        width: 85%;
+    }
+}
