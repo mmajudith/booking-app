@@ -17,7 +17,7 @@ A website that can be use to book an appointment...
 
 ## Author
 
-- Website - [My Portfolio](https://judith-portfolio.herokuapp.com/)
+- Website - [Judith Onyekwelu](https://judith-portfolio.vercel.app/)
 
 ### Run Locally
 
